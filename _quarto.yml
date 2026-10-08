@@ -1,0 +1,56 @@
+project:
+  type: website
+
+website:
+  title: "Efficient Computing for AI"
+  description: "Laboratory assignments"
+
+  navbar:
+    title: "Efficient Computing for AI"
+    search: true
+    left:
+      - href: setup/index.md
+        text: Setup
+      - href: labs/index.md
+        text: Labs
+      - href: resources/index.md
+        text: Resources
+    right:
+      - icon: github
+        href: https://github.com/davidecandel8/efficient-computing-ai
+        aria-label: GitHub repository
+
+  sidebar:
+    style: docked
+    search: true
+    contents:
+      - href: setup/index.md
+        text: Setup
+        contents:
+          - setup/rpi-board.md
+
+      - href: labs/index.md
+        text: Labs
+        contents:
+          - labs/overview.md
+          - labs/schedule.md
+          - labs/1-ai-computing-opt.md
+
+      - href: resources/index.md
+        text: Resources
+
+  page-footer:
+    left: "Efficient Computing for AI"
+    right: "Lab material"
+
+format:
+  html:
+    toc: true
+    code-copy: true
+    code-fold: false
+    smooth-scroll: true
+
+# Keep this project Markdown-first.
+# Switch individual pages to .qmd only when executable content is needed.
+execute:
+  freeze: auto

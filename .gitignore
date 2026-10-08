@@ -1,0 +1,23 @@
+# Quarto generated files
+.quarto/
+_site/
+
+# Quarto execution cache/results (keep _freeze if you use executable pages)
+.jupyter/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+AGENTS.md
+/.quarto/
+**/*.quarto_ipynb
